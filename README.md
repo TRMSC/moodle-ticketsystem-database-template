@@ -1,2 +1,7 @@
-# moodle-ticketsystem-database-template
-Implementing a clear and responsive ticketsystem in moodle within the database activity
+# Moodle Ticketsystem - Database Template
+### Implementing a clear and responsive ticketsystem in moodle within the database activity
+
+---
+
+![htm-mode](https://github.com/TRMSC/moodle-ticketsystem-database-template/blob/main/ticketsystem.png?raw=true)  
+picture: [pixabay](https://pixabay.com/de/illustrations/tickets-film-eingang-kino-theater-4267025/)
