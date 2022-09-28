@@ -1,0 +1,174 @@
+/* Ticketsystem v.1.0 - Copyright (C) 2022, TRMSC - https://trmsc1.wordpress.com/ */
+/* GNU General Public Licence 3.0 - http://www.gnu.de/documents/gpl-3.0.en.html */
+
+/* GENERAL */
+.path-mod-data .adminonly {
+    display: none;
+}
+.path-mod-data .back-container {
+    text-align: right;
+}
+.path-mod-data .alert a {
+    background-color: var(--warning);
+    border-radius: 3px;
+}
+
+/* ADD */
+#page-mod-data-edit .adminonly, #page-mod-data-edit .everyuser {
+    margin-bottom: 20px;
+    padding: 15px 35px 15px 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#page-mod-data-edit .adminonly {
+    background-color: #ffebeb;
+    display: none;
+}
+#page-mod-data-edit .everyuser {
+    background-color: #fafafa;
+}
+#page-mod-data-edit .mdl-align {
+    text-align: left;
+}
+@media screen and (max-width: 526px) {
+    #page-mod-data-edit #region-main .mdl-align {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        row-gap: 5px;
+    }
+    #page-mod-data-edit #region-main .mdl-align .btn {
+        margin: 0px!important;
+        white-space: break-spaces;
+    }
+}
+
+/* LIST */
+#page-mod-data-view #region-main .list *:focus {
+    box-shadow: none!important;
+}
+#page-mod-data-view #options {
+    display: none;
+}
+#page-mod-data-view #hiddenSearchSummary {
+    width: fit-content;
+}
+#page-mod-data-view #region-main #options div:first-of-type {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#page-mod-data-view #region-main #options label {
+    margin: 0px;
+}
+#page-mod-data-view #region-main #options #data_adv_form,
+#page-mod-data-view #region-main #options .search_none .boxaligncenter {
+    width: -webkit-fill-available;
+}
+#page-mod-data-view #region-main .ticket-header {
+    margin-top: 40px;
+}
+#page-mod-data-view #region-main .list .col {
+    border: 1px solid var(--secondary);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px 10px;
+    width: 16%!important;
+    text-align: center;
+}
+#page-mod-data-view #region-main .list:nth-child(odd) {
+    background-color: #f7f7f7;
+}
+#page-mod-data-view .status {
+    border-radius: 10px;
+    padding: 0px 10px;
+    color: white;
+    white-space: nowrap;
+}
+#page-mod-data-view .status.offen {
+    background-color: var(--danger);
+}
+#page-mod-data-view .status.begonnen {
+    background-color: var(--warning);
+}
+#page-mod-data-view .status.abgeschlossen {
+    background-color: var(--success);
+}
+#page-mod-data-view .rounded-circle {
+    margin: -5px 2px;
+    display: none;
+}
+#page-mod-data-view summary {
+    list-style-type: none;
+}
+#page-mod-data-view .status-container summary {
+    text-align: center;
+}
+#page-mod-data-view details, 
+#page-mod-data-view summary {
+    border-radius: 8px;
+    width: 100%;
+}
+#page-mod-data-view .description-container details,
+#page-mod-data-view .feedback {
+    word-break: break-word;
+}
+#page-mod-data-view details[open] summary:not(.status-container summary) {
+    font-weight: bold;
+}
+#page-mod-data-view #region-main [data-togglegroup="listview-entries"]:not(.symbol *) {
+    margin-top: 50px;
+}
+#page-mod-data-view #licenceFooter {
+    text-align: right;
+}
+@media screen and (max-width: 768px) {
+    #page-mod-data-view #region-main .list {
+        margin-bottom: 25px;
+    }
+    #page-mod-data-view #region-main .list .col {
+        flex: 1 0 21%;
+    }
+}
+
+/* SINGLE */
+#page-mod-data-view .justify-content-center {
+    justify-content: flex-end!important;
+}
+#page-mod-data-view .single-row {
+    margin-top: 20px;
+}
+#page-mod-data-view .pagination .pagination {
+    margin: 5px 0px;
+}
+#page-mod-data-view .symbol-right {
+    display: flex;
+    flex-direction: row-reverse;
+}
+#page-mod-data-view .status-left .status {
+    font-size: x-large;
+}
+#page-mod-data-view .symbol-right {
+    zoom: 1.5;
+}
+#page-mod-data-view .ticket-content, 
+#page-mod-data-view .ticket-feedback {
+    margin-bottom: 10px;
+    padding: 15px 35px 15px 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #fafafa;
+}
+#page-mod-data-view .comment-link {
+    width: fit-content;
+    font-weight: bold;
+}
+#page-mod-data-view .comment-list li,
+#page-mod-data-view .comment-link {
+    border-radius: 8px;
+}
+#page-mod-data-view textarea {
+    border-radius: 3px 8px 8px 8px;
+}
