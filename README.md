@@ -1,4 +1,8 @@
-# Moodle Ticketsystem - Database Template
+# Moodle Ticketsystem - Database Template  
+![Maintainer](https://img.shields.io/badge/Moodle_4-green)
+![Maintainer](https://img.shields.io/badge/Boost-green)
+![Maintainer](https://img.shields.io/badge/Boost_Campus-green)
+![Maintainer](https://img.shields.io/badge/More_Compatibilities-green)  
 ### Implementing a clear and responsive ticketsystem in moodle within the database activity
 :floppy_disk: [__Download the compiled database preset here__](https://trmsc1.wordpress.com/templates/#ticket)
 
