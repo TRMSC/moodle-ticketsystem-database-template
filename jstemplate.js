@@ -1,4 +1,4 @@
-/* Ticketsystem v.1.0 - Copyright (C) 2022, TRMSC - https://trmsc1.wordpress.com/ */
+/* Ticketsystem v.1.0.1 - Copyright (C) 2022, TRMSC - https://trmsc1.wordpress.com/ */
 /* GNU General Public Licence 3.0 - http://www.gnu.de/documents/gpl-3.0.en.html */
 
 /**
@@ -57,6 +57,11 @@ function reviseEdit() {
     let adminControl = $('.navbar .custom-control-input').length;
     if (adminControl > 0) {
         $('.adminonly').css('display', 'inherit');
+    } else {
+        adminControl = $('.nav-link[href*="field"]').length;
+        if (adminControl > 0) {
+            $('.adminonly').css('display', 'inherit');
+        }
     }
 }
 
